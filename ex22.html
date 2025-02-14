@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+      <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+   <title>start bootstrap</title>
+   <style>
+    .nav-link:hover{
+        color: rgb(255, 0, 221);
+        text-decoration: underline;
+    }
+    .row{
+       
+        width: 100%;
+    }
+    .card {
+       animation-name: fati;
+       animation-duration: 2s;
+       animation-iteration-count: infinite;
+    }
+
+   </style>
+
+</head>
+<body >
+     <nav class="navbar navbar-expand-md justify-content-between bg-dark navbar-dark">
+        <div class="navbar-nav " ><img style="height: 50px; width: 100px; border-radius: 20px;" src="./Capture d’écran 2022-12-21 214517.png">
+        </div>
+         <div class="navbar-nav">
+        <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#fai">
+            Menu<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="fai">
+         <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link">Link1</a></li>
+            <li class="nav-item"><a class="nav-link">link2</a></li>
+            <li class="nav-item"><a class="nav-link">link3</a></li>
+         </ul>
+        </div>
+    </div>
+    </nav>
+     <nav class="navbar navbar-expand-md justify-content-between  sticky-top">
+        <a class="nav-bland navbar-nav">Logo</a>
+        <form class=" navbar-nav">
+            <div class="input-group">
+                <select class="form-select">
+                    <option >a</option>
+                    <option>b</option>
+                </select>
+                <input type="search" placeholder="search" class="form-control">
+                <button type="submit" class="btn btn-danger">search</button>
+            </div>
+        </form>
+        
+            <ul class="navbar-nav ">
+                <li class="nav-item " >
+                    <a class="nav-link dropdown dropdown-toggle" data-bs-toggle="dropdown" >Link1</a>
+                     <ul class="dropdown-menu  ">
+                        <li class="dropdown-item"><a>vvvvvvvv</a></li>
+                        <li  class="dropdown-item"><a >bbbbbbbb</a></li>
+
+                     </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link dropdown dropdown-toggle" data-bs-toggle="dropdown">link2</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a>aaaaaaa</a></li>
+                        <li class="dropdown-item"><a>bbbbb</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link">link3</a>
+                </li>
+            </ul>
+        
+     </nav>
+     <div class="row" style="height: 780px; overflow: hidden; display: flex; flex-direction: column;">
+        <div class="col-4 card">
+            <div class="card-header">header</div>
+            <img class="card-img-top" src="./Capture d’écran 2022-12-21 214517.png" >
+            <div class="card-footer">fooooter</div>
+        </div>
+        <div class="col-4 card">
+            <div class="card-header">header</div>
+            <img class="card-img-top" src="./Capture d’écran 2022-12-21 214517.png" >
+            <div class="card-footer">fooooter</div>
+        </div>
+        <div class="col-4 card">
+            <div class="card-header">header</div>
+            <img class="card-img-top"src="./Capture d’écran 2022-12-21 214517.png"  >
+            <div class="card-footer">fooooter</div>
+        </div>
+        <div class="col-4 card">
+            <div class="card-header">header</div>
+            <img class="card-img-top"src="./Capture d’écran 2022-12-21 214517.png"  >
+            <div class="card-footer">fooooter</div>
+        </div>
+        <div class="col-4 card">
+            <div class="card-header">header</div>
+            <img class="card-img-top"src="./Capture d’écran 2022-12-21 214517.png"  >
+            <div class="card-footer">fooooter</div>
+        </div>
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

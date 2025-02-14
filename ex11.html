@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica;
+        }
+        article{
+            width: 500px;
+            height: 500px;  
+            border-radius: 20px;
+            background: linear-gradient(rgb(56, 35, 35),#fff); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden; 
+        }
+        .container{
+            position: relative;
+            top: 100%;
+            width: 80%;
+            height: 100%;
+            text-align: center;
+            transition: 11s;
+        }
+        .container h1{
+            font-size: 3em;
+            font-weight: 900;
+        }
+        .container p{
+            font-size: 1.5em;
+            margin: 10% 0;
+        }
+        .container a{
+            text-decoration: none;
+            background-color: black;
+            color: #fff;
+            padding: 5%;
+            border-radius: 20px;
+        }
+        article:hover .container{
+            top: 0%;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <div class="container">
+            <h1>Title</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam tempora dicta repellendus delectus sapiente eum? Totam praesentium repudiandae, cupiditate esse dolorem quo soluta ipsa perspiciatis, sunt tenetur sed nesciunt.</p>
+            <a href="">Learn more</a>
+        </div>
+    </article>
+</body>
+</html>
